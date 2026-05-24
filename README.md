@@ -236,6 +236,8 @@ directory and `_paths` resolves the right roots from its own file location.
 
 ## Acknowledgements
 
+### UCR / UEA archive
+
 All experiments in this repository use the
 [UCR / UEA Time Series Archive](https://www.timeseriesclassification.com/),
 2018 univariate release, curated by Anthony Bagnall, Hoang Anh Dau, Eamonn
@@ -248,3 +250,23 @@ exist. If you use RIfTS in published work, please cite the archive paper:
 > Ratanamahatana, C.\,A., Keogh, E. (2019). *The UCR Time Series Archive*.
 > IEEE/CAA Journal of Automatica Sinica, 6(6):1293–1305.
 > [doi:10.1109/JAS.2019.1911747](https://doi.org/10.1109/JAS.2019.1911747)
+
+### Max-iAXp / RFxpl
+
+Our Max-iAXp baseline is computed by
+[RFxpl](https://github.com/izzayacine/RFxpl) (Yacine Izza, MIT licence), the
+reference implementation of the line of work the baseline implements. RFxpl
+is vendored under `third_party/RFxpl/` so the baseline runs out of the box
+(see `THIRD_PARTY_NOTICES.md` for the licence text and the one modification
+we made). The RFxpl authors ask that any work building on the codebase cite
+the following two papers:
+
+> Izza, Y., Marques-Silva, J. (2021). *On Explaining Random Forests with
+> SAT*. Proceedings of the 30th International Joint Conference on Artificial
+> Intelligence (IJCAI 2021), pages 2584–2591.
+> [doi:10.24963/ijcai.2021/356](https://doi.org/10.24963/ijcai.2021/356)
+
+> Izza, Y., Ignatiev, A., Stuckey, P.\,J., Marques-Silva, J. (2024).
+> *Delivering Inflated Explanations*. Proceedings of the 38th AAAI
+> Conference on Artificial Intelligence (AAAI 2024), pages 12744–12753.
+> [doi:10.1609/aaai.v38i11.29170](https://doi.org/10.1609/aaai.v38i11.29170)

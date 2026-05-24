@@ -41,6 +41,7 @@ FACTORY_ROOT: Path = RIFTS_ROOT / "factory-setting"
 DATA_ROOT: Path = RIFTS_ROOT / "dataset" / "Univariate_ts"
 SRC_ROOT: Path = RIFTS_ROOT / "src"
 SCRIPTS_ROOT: Path = RIFTS_ROOT / "scripts"
+RFXPL_ROOT: Path = RIFTS_ROOT / "third_party" / "RFxpl"
 
 for _p in (SRC_ROOT, SCRIPTS_ROOT):
     _s = str(_p)

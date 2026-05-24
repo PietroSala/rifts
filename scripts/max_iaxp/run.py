@@ -59,13 +59,15 @@ from max_iaxp.coverage import (
 from max_iaxp.rfxpl_io import write_data_csv, write_model_pkl
 
 
-from _paths import STATE_ROOT as REPO_ROOT, DATA_ROOT  # noqa: E402
+from _paths import STATE_ROOT as REPO_ROOT, DATA_ROOT, RFXPL_ROOT  # noqa: E402
 RESULTS_ROOT = REPO_ROOT / "max-iaxp"
 MODELS_DIR = REPO_ROOT / "models"
 BASELINE_CSV = REPO_ROOT / "metrics" / "baseline.csv"
 
-# RFxpl lives outside this repo; users can override with the env var.
-DEFAULT_RFXPL = Path(os.environ.get("RFXPL_PATH", REPO_ROOT.parent.parent / "RFxpl"))
+# RFxpl is vendored under rifts-local/third_party/RFxpl/ (MIT, by Yacine Izza).
+# The env var override is kept for users who want to point at a different
+# checkout (e.g. a development clone with new patches).
+DEFAULT_RFXPL = Path(os.environ.get("RFXPL_PATH", RFXPL_ROOT))
 
 
 def _add_rfxpl_to_path(rfxpl_path: Path) -> None:
