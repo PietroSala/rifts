@@ -1,0 +1,6 @@
+sample_idx,y_true,y_pred,pred_correct,axp_json,intervals_json,n_constrained,coverage_convB,fsc_s,their_cov,solver_status,solver_wall_s,total_wall_s,timeout_s
+0,1,1,True,[],{},0,,,,timeout,60.5763,60.5781,60
+0,1,1,True,[],{},0,,,,timeout,120.6638,120.6656,120
+0,1,1,True,[],{},0,,,,timeout,240.0326,240.0345,240
+0,1,1,True,[],{},0,,,,timeout,482.2182,482.2200,480
+0,1,1,True,[],{},0,,,,timeout,961.9138,961.9186,960

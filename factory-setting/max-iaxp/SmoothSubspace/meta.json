@@ -1,0 +1,44 @@
+{
+  "dataset": "SmoothSubspace",
+  "n_train": 150,
+  "n_test": 150,
+  "length": 15,
+  "n_classes": 3,
+  "rf_params": {
+    "n_estimators": 200,
+    "max_depth": 6,
+    "min_samples_leaf": 1,
+    "max_features": 0.3,
+    "class_weight": null,
+    "random_state": 0
+  },
+  "eu_sizes": {
+    "0": 96,
+    "1": 63,
+    "2": 108,
+    "3": 61,
+    "4": 74,
+    "5": 134,
+    "6": 131,
+    "7": 88,
+    "8": 93,
+    "9": 124,
+    "10": 129,
+    "11": 87,
+    "12": 106,
+    "13": 89,
+    "14": 125
+  },
+  "totals": {
+    "processed": 1,
+    "ok": 0,
+    "no_expl": 0,
+    "timeout": 1,
+    "error": 0,
+    "skipped": 0,
+    "wall_s": 965.555,
+    "stopped_at_timeout": 0,
+    "timeout_s": 960,
+    "total_wall_s_run": 965.557
+  }
+}

@@ -1,0 +1,10 @@
+sample_idx,y_true,y_pred,pred_correct,axp_json,intervals_json,n_constrained,coverage_convB,fsc_s,their_cov,solver_status,solver_wall_s,total_wall_s,timeout_s
+0,3,3,True,[],{},0,,,,timeout,60.0842,60.0853,60
+0,3,3,True,[],{},0,,,,timeout,120.6532,120.6544,120
+0,3,3,True,[],{},0,,,,timeout,241.3465,241.3477,240
+0,3,3,True,[],{},0,,,,error:AssertionError,135.9667,135.9679,480
+1,2,2,True,[],{},0,,,,error:AssertionError,57.5465,57.5478,480
+2,4,4,True,[],{},0,,,,error:AssertionError,129.8604,129.8617,480
+3,3,3,True,[],{},0,,,,error:AssertionError,90.3721,90.3737,480
+4,3,3,True,[],{},0,,,,timeout,481.6385,481.6397,480
+4,3,3,True,[],{},0,,,,timeout,961.7532,961.7546,960

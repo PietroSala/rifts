@@ -1,0 +1,53 @@
+{
+  "dataset": "Chinatown",
+  "n_train": 20,
+  "n_test": 343,
+  "length": 24,
+  "n_classes": 2,
+  "rf_params": {
+    "n_estimators": 100,
+    "max_depth": 12,
+    "min_samples_leaf": 2,
+    "max_features": "log2",
+    "class_weight": "balanced",
+    "random_state": 0
+  },
+  "eu_sizes": {
+    "0": 9,
+    "1": 6,
+    "2": 7,
+    "3": 10,
+    "4": 6,
+    "5": 4,
+    "6": 1,
+    "7": 4,
+    "8": 7,
+    "9": 7,
+    "10": 2,
+    "11": 2,
+    "12": 1,
+    "13": 3,
+    "14": 5,
+    "15": 4,
+    "16": 5,
+    "17": 2,
+    "18": 1,
+    "19": 1,
+    "20": 1,
+    "21": 1,
+    "22": 4,
+    "23": 3
+  },
+  "totals": {
+    "processed": 88,
+    "ok": 80,
+    "no_expl": 0,
+    "timeout": 1,
+    "error": 7,
+    "skipped": 127,
+    "wall_s": 12838.08,
+    "stopped_at_timeout": 214,
+    "timeout_s": 960,
+    "total_wall_s_run": 12838.436
+  }
+}

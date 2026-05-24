@@ -1,0 +1,35 @@
+# --- runtime working state ---
+# Created by init.sh; populated by sweeps, training, the dashboard. Never tracked.
+current-state/
+
+# --- factory snapshot: ship in-tree, but never the inflated sweep DBs ---
+# Each sweep DB is tracked in its compressed .zst form (zstd -19). init.sh
+# inflates the .zst into the matching .db on first run; the live SQLite
+# files (.db, .db-shm, .db-wal, .db-journal) stay untracked.
+factory-setting/sweeps/**/sweep.db
+factory-setting/sweeps/**/sweep.db-shm
+factory-setting/sweeps/**/sweep.db-wal
+factory-setting/sweeps/**/sweep.db-journal
+
+# --- downloaded archive ---
+# Fetched by download_ucr.sh; ~800 MB unpacked. Tracked README.md only.
+dataset/Univariate_ts/
+dataset/Univariate2018_ts.zip
+
+# --- Python noise ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- editor / OS noise ---
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# --- run-time logs ---
+*.log

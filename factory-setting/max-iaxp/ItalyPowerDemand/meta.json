@@ -1,0 +1,53 @@
+{
+  "dataset": "ItalyPowerDemand",
+  "n_train": 67,
+  "n_test": 1029,
+  "length": 24,
+  "n_classes": 2,
+  "rf_params": {
+    "n_estimators": 50,
+    "max_depth": 8,
+    "min_samples_leaf": 2,
+    "max_features": 0.7,
+    "class_weight": "balanced",
+    "random_state": 0
+  },
+  "eu_sizes": {
+    "0": 4,
+    "1": 2,
+    "2": 4,
+    "3": 1,
+    "4": 3,
+    "5": 5,
+    "6": 3,
+    "7": 8,
+    "8": 3,
+    "9": 2,
+    "10": 0,
+    "11": 4,
+    "12": 1,
+    "13": 4,
+    "14": 2,
+    "15": 0,
+    "16": 1,
+    "17": 4,
+    "18": 2,
+    "19": 18,
+    "20": 15,
+    "21": 2,
+    "22": 1,
+    "23": 3
+  },
+  "totals": {
+    "processed": 1029,
+    "ok": 1028,
+    "no_expl": 0,
+    "timeout": 0,
+    "error": 1,
+    "skipped": 0,
+    "wall_s": 1322.978,
+    "stopped_at_timeout": null,
+    "timeout_s": 60,
+    "total_wall_s_run": 1323.423
+  }
+}

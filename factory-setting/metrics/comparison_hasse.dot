@@ -1,0 +1,32 @@
+digraph hasse {
+  rankdir=BT;
+  graph [fontname="Helvetica", labelloc=t, label="Hasse diagram — datasets partial order over demanding-ness axes\n(top = most demanding; edges = cover relation)"];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=10, margin=0.06, height=0.25];
+  edge  [arrowsize=0.6, color="#7f8c8d"];
+  "CricketX" [fillcolor="#44cb7e"];
+  "CricketY" [fillcolor="#58c98b"];
+  "CricketZ" [fillcolor="#4bca83"];
+  "ECG5000" [fillcolor="#8dc6aa"];
+  "EOGHorizontalSignal" [fillcolor="#4fca85"];
+  "Fish" [fillcolor="#68c894"];
+  "GunPointMaleVersusFemale" [fillcolor="#90c6ac"];
+  "InsectWingbeatSound" [fillcolor="#68c894"];
+  "Plane" [fillcolor="#97c5b0"];
+  "PowerCons" [fillcolor="#bbc3c6"];
+  "SemgHandMovementCh2" [fillcolor="#3bcb79"];
+  "Trace" [fillcolor="#8fc6ab"];
+  "UMD" [fillcolor="#a1c5b6"];
+  "UWaveGestureLibraryX" [fillcolor="#36cb76"];
+  "UWaveGestureLibraryY" [fillcolor="#2ecc71"];
+  "UWaveGestureLibraryZ" [fillcolor="#42cb7d"];
+  "Fish" -> "ECG5000";
+  "GunPointMaleVersusFemale" -> "PowerCons";
+  "GunPointMaleVersusFemale" -> "UMD";
+  "InsectWingbeatSound" -> "ECG5000";
+  "Plane" -> "PowerCons";
+  "SemgHandMovementCh2" -> "EOGHorizontalSignal";
+  "Trace" -> "PowerCons";
+  "UWaveGestureLibraryX" -> "CricketZ";
+  "UWaveGestureLibraryY" -> "CricketX";
+  "UWaveGestureLibraryZ" -> "CricketY";
+}

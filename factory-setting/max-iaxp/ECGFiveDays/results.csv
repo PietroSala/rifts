@@ -1,0 +1,8 @@
+sample_idx,y_true,y_pred,pred_correct,axp_json,intervals_json,n_constrained,coverage_convB,fsc_s,their_cov,solver_status,solver_wall_s,total_wall_s,timeout_s
+0,2,2,True,[],{},0,,,,timeout,60.0523,60.0524,60
+0,2,2,True,"[37, 39, 107, 121, 124, 125, 126, 127, 129, 131]","{""37"": [0.006, true, null, true], ""39"": [-0.121, true, null, true], ""107"": [-0.147, true, null, true], ""121"": [-0.267, true, null, true], ""124"": [-0.247, true, null, true], ""125"": [-0.215, true, null, true], ""126"": [-0.185, true, null, true], ""127"": [-0.261, true, null, true], ""129"": [-0.317, true, null, true], ""131"": [-0.258, true, null, true]}",10,0.957388,1.791759,89.610000,ok,76.6274,76.6277,120
+1,2,2,True,[],{},0,,,,timeout,120.1555,120.1556,120
+1,2,2,True,"[83, 84, 121, 124, 125, 126, 127, 129, 131]","{""83"": [null, true, 1.64, false], ""84"": [null, true, 1.52, false], ""121"": [-0.267, true, null, true], ""124"": [-0.247, true, null, true], ""125"": [-0.174, true, null, true], ""126"": [-0.091, true, null, true], ""127"": [-0.261, true, null, true], ""129"": [-0.317, true, null, true], ""131"": [-0.258, true, null, true]}",9,0.953029,0.693147,88.900000,ok,144.0165,144.0169,240
+2,2,2,True,[],{},0,,,,timeout,240.2955,240.2957,240
+2,2,2,True,[],{},0,,,,timeout,480.0764,480.0765,480
+2,2,2,True,[],{},0,,,,timeout,960.1109,960.1113,960
